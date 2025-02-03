@@ -1,0 +1,10 @@
+<div id="social-media">
+    {% assign sm = site.data.social-media %}
+    {% assign social = site.data.socials %}
+    {% for entry in social %}
+        {% assign key = entry | first %}
+        {% if sm[key].id %}
+            <a href="{{ sm[key].href }}{{ sm[key].id }}" title="{{ sm[key].title }}">{{ sm[key].title }}</a>
+        {% endif %}
+    {% endfor %}
+</div>

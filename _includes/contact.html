@@ -1,0 +1,10 @@
+{% assign sm = site.data.social-media %}
+{% assign contact = site.data.contact %}
+<blockquote>
+  <p>
+    {% for entry in contact %}
+    {% assign key = entry | first %}
+    <em>{{ sm[key].title }}: <strong><a href="{{ sm[key].href }}{{ sm[key].id }}" title="{{ sm[key].title }}">{{ sm[key].id }}</a></strong></em><br />
+    {% endfor %}
+  </p>
+</blockquote>

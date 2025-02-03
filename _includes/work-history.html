@@ -1,0 +1,11 @@
+{% assign wh = site.data.work-history %}
+<blockquote>
+  <p>
+    {% for entry in wh %}
+      {% assign key = entry | first %}
+        {% if wh[key].name %}
+    <em><strong>{{ wh[key].name }}</strong></em>, <em><ins>{{ wh[key].position }}</ins></em>, {{ wh[key].dates }}<br />
+        {% endif %}
+    {% endfor %}
+  </p>
+</blockquote>

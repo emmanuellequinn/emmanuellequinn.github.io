@@ -1,0 +1,14 @@
+<h1><span><a href='/' style='color:#494949; text-decoration:none;'>{{ site.title }}</a></span></h1>
+<p class="name"><code class="language-plaintext highlighter-rouge">{ {{ site.nickname }} }</code></p>
+
+{% if site.logo %}
+  <img src="{{site.logo | relative_url}}" />
+{% endif %}
+
+<p class="bio">{{ site.description }}</p>
+
+{% if site.data.social-media %}
+<p>
+{% include social-media.html %}
+</p>
+{% endif %}

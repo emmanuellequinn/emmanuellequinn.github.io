@@ -1,0 +1,9 @@
+email:
+  id: 'emmanuelle.quinn@icloud.com'
+  href: 'mailto:'
+  title: 'Email'
+
+github:
+  id: 'scoutquinn'
+  href: 'https://github.com/'
+  title: 'GitHub'
