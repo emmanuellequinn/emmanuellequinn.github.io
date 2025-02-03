@@ -4,7 +4,7 @@
     {% for entry in social %}
         {% assign key = entry | first %}
         {% if sm[key].id %}
-            <a href="{{ sm[key].href }}{{ sm[key].id }}" title="{{ sm[key].title }}">{{ sm[key].title }}</a>
+            <a href="{{ sm[key].href }}{{ sm[key].id }}" title="{{ sm[key].title }}"><strong>{{ sm[key].title }}</strong></a>
         {% endif %}
     {% endfor %}
 </div>
