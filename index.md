@@ -26,10 +26,10 @@ I graduated from the ***University of Tasmania School of Creative Arts and Media
 
 <p style="text-align: center;"></></p>
 
-My public contact details are below:
+My public contact details are below, you can use any of them to request my non-public contact details:
 
 {% include contact.html %}
 
-*If you are a recruiter and you would like a copy of my current CV or to arrange a call please feel free to send me an [**email**](mailto:emmanuellequinn@icloud.com)*.
+*If you are a recruiter and you would like an unredacted copy of my current CV or to arrange a call please feel free to send me an [**email**](mailto:emmanuellequinn@icloud.com)*.
 
 ---
