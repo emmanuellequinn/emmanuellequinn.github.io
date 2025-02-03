@@ -4,7 +4,7 @@
   <p>
     {% for entry in contact %}
     {% assign key = entry | first %}
-    <em>{{ sm[key].title }}: <strong><a href="{{ sm[key].href }}{{ sm[key].id }}" title="{{ sm[key].title }}">{{ sm[key].id }}</a></strong></em><br />
+    <em>{{ sm[key].title }}: <a href="{{ sm[key].href }}{{ sm[key].id }}" title="{{ sm[key].title }}"><strong>{% if sm[key].title == "Telegram" %}@{% endif %}{{ sm[key].id }}</a></strong></em><br />
     {% endfor %}
   </p>
 </blockquote>
